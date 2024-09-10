@@ -2,7 +2,9 @@ import "./App.css";
 import React, { useEffect, useState } from "react";
 import AddUser from "./Component/AddUser";
 import User from "./Component/User";
+
 const App = () => {
+
   // some constant and global varibles and useState
   const [users, setUsers] = useState([]);
   const [upperLimit, addupperLimit] = useState(200);
